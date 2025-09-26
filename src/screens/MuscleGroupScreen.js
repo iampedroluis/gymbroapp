@@ -14,7 +14,20 @@ const MuscleGroupScreen = () => {
   }, []);
 
   useEffect(() => {
-    filterMuscleGroups();
+    if (!searchText) {
+      setFilteredMuscleGroups(muscleGroups);
+      return;
+    }
+
+    const filtered = muscleGroups.filter(
+      (group) =>
+        group.name.toLowerCase().includes(searchText.toLowerCase()) ||
+        group.specificParts.some((part) =>
+          part.toLowerCase().includes(searchText.toLowerCase())
+        )
+    );
+
+    setFilteredMuscleGroups(filtered);
   }, [searchText, muscleGroups]);
 
   const processMuscleGroups = () => {
@@ -23,7 +36,9 @@ const MuscleGroupScreen = () => {
 
     exercises.forEach((exercise) => {
       // Use musculo_principal if available, otherwise fall back to Grupo muscular
-      const groupName = exercise.musculo_principal ? exercise.musculo_principal[0] : exercise["Grupo muscular"];
+      const groupName = exercise.musculo_principal
+        ? exercise.musculo_principal[0]
+        : exercise["Grupo muscular"];
       const exerciseName = exercise.Ejercicio;
       const specificPart = exercise["Parte específica"];
       const difficulty = exercise.Dificultad;
@@ -60,23 +75,6 @@ const MuscleGroupScreen = () => {
 
     setMuscleGroups(processedGroups);
     setFilteredMuscleGroups(processedGroups);
-  };
-
-  const filterMuscleGroups = () => {
-    if (!searchText) {
-      setFilteredMuscleGroups(muscleGroups);
-      return;
-    }
-
-    const filtered = muscleGroups.filter(
-      (group) =>
-        group.name.toLowerCase().includes(searchText.toLowerCase()) ||
-        group.specificParts.some((part) =>
-          part.toLowerCase().includes(searchText.toLowerCase())
-        )
-    );
-
-    setFilteredMuscleGroups(filtered);
   };
 
   const handleMuscleGroupPress = (muscleGroup) => {

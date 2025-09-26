@@ -20,6 +20,7 @@ const useCompletedExercises = () => {
   };
 
   // Cargar ejercicios completados del localStorage al inicializar
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     const saved = localStorage.getItem("completedExercises");
     const savedWeekStart = localStorage.getItem("exercisesWeekStart");
@@ -79,12 +80,6 @@ const useCompletedExercises = () => {
     localStorage.removeItem("completedExercises");
   };
 
-  const resetWeeklyProgress = () => {
-    setCompletedExercises(new Set());
-    localStorage.removeItem("completedExercises");
-    localStorage.setItem("exercisesWeekStart", getWeekStart());
-  };
-
   // Generar una clave única para el ejercicio basada en día y nombre
   const generateExerciseKey = (dia, ejercicioNombre) => {
     return `${dia}-${ejercicioNombre}`;
@@ -96,7 +91,6 @@ const useCompletedExercises = () => {
     markExerciseIncomplete,
     isExerciseCompleted,
     clearAllCompleted,
-    resetWeeklyProgress,
     generateExerciseKey,
   };
 };
