@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* iOS style custom styles */
+@layer base {
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #F2F2F7;
+  }
+}
+
+@layer components {
+  .ios-button {
+    @apply bg-ios-blue text-white font-medium py-3 px-6 rounded-ios transition-all duration-200 active:scale-95 shadow-ios;
+  }
+  
+  .ios-button:hover {
+    @apply bg-opacity-90;
+  }
+  
+  .ios-card {
+    @apply bg-white rounded-ios-lg shadow-ios p-4 border border-ios-gray-100;
+  }
+  
+  .ios-input {
+    @apply w-full px-4 py-3 bg-ios-gray-50 border border-ios-gray-200 rounded-ios focus:outline-none focus:ring-2 focus:ring-ios-blue focus:border-transparent;
+  }
+}

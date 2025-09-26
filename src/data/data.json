@@ -1,0 +1,641 @@
+{
+  "rutinas": [
+    {
+      "dia": "Lunes",
+      "musculos": "Pecho + Tríceps",
+      "descanso": "60-90 segundos",
+      "musculo_principal": ["Pecho", "Tríceps"],
+      "ejercicios": [
+        {
+          "nombre": "Pectoral superior (clavicular)",
+          "musculo_principal": ["Pecho"],
+          "rutina": [
+            {
+              "nombre": "Press inclinado con mancuernas",
+              "musculo": ["Pecho"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "00471301-Barbell-Incline-Bench-Press_Chest_720.gif"
+            },
+            {
+              "nombre": "Aperturas inclinadas",
+              "musculo": ["Pecho"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "03191301-Dumbbell-Incline-Fly_Chest-FIX_720.gif"
+            }
+          ]
+        },
+        {
+          "nombre": "Pectoral medio (esternocostal)",
+          "musculo_principal": ["Pecho"],
+          "rutina": [
+            {
+              "nombre": "Press plano con mancuernas (en el suelo)",
+              "musculo": ["Pecho"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "02891301-Dumbbell-Bench-Press_Chest_720.gif"
+            },
+            {
+              "nombre": "Squeeze press",
+              "musculo_principal": ["Pecho"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Alto",
+              "descanso": "60-90 segundos",
+              "gif": "36811301-Dumbbell-Squeeze-Bench-Press_Chest_720.gif"
+            }
+          ]
+        },
+        {
+          "nombre": "Pectoral inferior (abdominal)",
+          "musculo_principal": ["Pecho"],
+          "rutina": [
+            {
+              "nombre": "Press en el suelo con agarre neutro hacia abdomen",
+              "musculo_principal": ["Pecho"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Alto",
+              "descanso": "60-90 segundos",
+              "gif": "03011301-Dumbbell-Decline-Bench-Press_Chest_720.gif"
+            },
+            {
+              "nombre": "Aperturas suelo ángulo bajo",
+              "musculo_principal": ["Pecho"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "03021301-Dumbbell-Decline-Fly_Chest_720.gif"
+            }
+          ]
+        },
+        {
+          "nombre": "Tríceps (3 cabezas)",
+          "musculo_principal": ["Tríceps"],
+          "rutina": [
+            {
+              "nombre": "Extensión por detrás de la cabeza – cabeza larga",
+              "musculo_principal": ["Tríceps"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "21881301-Dumbbell-Seated-Triceps-Extension_Upper-Arms_720.gif"
+            },
+            {
+              "nombre": "Patada de tríceps – cabeza lateral",
+              "musculo_principal": ["Tríceps"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "03331301-Dumbbell-Kickback_Upper-Arms_720.gif"
+            },
+            {
+              "nombre": "Press de tríceps en suelo – cabeza medial",
+              "musculo_principal": ["Tríceps"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Alto",
+              "descanso": "60-90 segundos",
+              "gif": "03381301-Dumbbell-Lying-Elbow-Press_Triceps_720.gif"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dia": "Martes",
+      "musculos": "Espalda",
+      "descanso": "60-90 segundos",
+      "musculo_principal": ["Espalda"],
+      "ejercicios": [
+        {
+          "nombre": "Dorsal ancho",
+          "musculo_principal": ["Espalda"],
+          "rutina": [
+            {
+              "nombre": "Remo con mancuerna (una mano)",
+              "musculo_principal": ["Espalda"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "02921301-Dumbbell-Bent-over-Row_back_Back_720.gif"
+            },
+            {
+              "nombre": "Remo inclinado",
+              "musculo_principal": ["Espalda"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "02931301-Dumbbell-Bent-Over-Row_Back-FIX_720.gif"
+            },
+            {
+              "nombre": "Pullover con mancuerna",
+              "musculo_principal": ["Espalda"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "04331301-Dumbbell-Straight-Arm-Pullover_Chest-FIX_720.gif"
+            }
+          ]
+        },
+        {
+          "nombre": "Trapecio",
+          "musculo_principal": ["Espalda"],
+          "rutina": [
+            {
+              "nombre": "Encogimientos – trapecio superior",
+              "musculo_principal": ["Espalda"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "04061301-Dumbbell-Shrug_Back-FIX_720.gif"
+            },
+            {
+              "nombre": "Remo al mentón – trapecio medio/superior",
+              "musculo_principal": ["Espalda"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "04371301-Dumbbell-Upright-Row_shoulder_720 1.gif"
+            },
+            {
+              "nombre": "Y-T-W raises – trapecio medio/inferior",
+              "musculo_principal": ["Espalda"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": [
+                "DB_REAR_LAT_RAISE.gif",
+                "DB_Y_RAISE.gif",
+                "33358 1.gif"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Romboides / Deltoides posteriores",
+          "musculo_principal": ["Espalda"],
+          "rutina": [
+            {
+              "nombre": "Reverse fly",
+              "musculo_principal": ["Espalda"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "03801301-Dumbbell-Rear-Lateral-Raise_Shoulders_720.gif"
+            },
+            {
+              "nombre": "Remo en pronación",
+              "musculo_principal": ["Espalda"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "13291301-Dumbbell-Palm-Rotational-Bent-Over-Row_Back_720.gif"
+            },
+            {
+              "nombre": "Face pulls con mancuernas",
+              "musculo_principal": ["Espalda"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "25032.gif"
+            }
+          ]
+        },
+        {
+          "nombre": "Erectores espinales (zona lumbar)",
+          "musculo_principal": ["Espalda"],
+          "rutina": [
+            {
+              "nombre": "Peso muerto rumano",
+              "musculo_principal": ["Espalda"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Alto",
+              "descanso": "60-90 segundos",
+              "gif": "14591301-Dumbbell-Romanian-Deadlift_Hips_720.gif"
+            },
+            {
+              "nombre": "Buenos días con mancuernas",
+              "musculo_principal": ["Espalda"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Alto",
+              "descanso": "60-90 segundos",
+              "gif": "00441301-Barbell-Good-Morning_Thighs_720.gif"
+            },
+            {
+              "nombre": "Hiperextensiones suelo",
+              "musculo_principal": ["Espalda"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "floor-back-extensions.gif"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dia": "Miércoles",
+      "musculos": "Hombros",
+      "descanso": "60-90 segundos",
+      "musculo_principal": ["Hombros"],
+      "ejercicios": [
+        {
+          "nombre": "Deltoides anterior (frontal)",
+          "musculo_principal": ["Hombros"],
+          "rutina": [
+            {
+              "nombre": "Elevaciones frontales",
+              "musculo_principal": ["Hombros"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "03101301-Dumbbell-Front-Raise_Shoulders_720.gif"
+            },
+            {
+              "nombre": "Press militar",
+              "musculo_principal": ["Hombros"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Alto",
+              "descanso": "60-90 segundos",
+              "gif": "04271301-Dumbbell-Standing-Palms-In-Press_Shoulders_720.gif"
+            },
+            {
+              "nombre": "Arnold press",
+              "musculo_principal": ["Hombros"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Alto",
+              "descanso": "60-90 segundos",
+              "gif": "21371301-Dumbbell-Arnold-Press_Shoulders_720.gif"
+            }
+          ]
+        },
+        {
+          "nombre": "Deltoides lateral (medio)",
+          "musculo_principal": ["Hombros"],
+          "rutina": [
+            {
+              "nombre": "Elevaciones laterales",
+              "musculo_principal": ["Hombros"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "03111301-Dumbbell-Full-Can-Lateral-Raise_Shoulders_720.gif"
+            },
+            {
+              "nombre": "Incline lateral raise improvisado",
+              "musculo_principal": ["Hombros"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "04081301-Dumbbell-Side-Lying-One-Hand-Raise_Shoulders_720.gif"
+            },
+            {
+              "nombre": "Press lateral neutro",
+              "musculo_principal": ["Hombros"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "02871301-Dumbbell-Arnold-Press-II_Shoulders_720.gif"
+            }
+          ]
+        },
+        {
+          "nombre": "Deltoides posterior (trasero)",
+          "musculo_principal": ["Hombros"],
+          "rutina": [
+            {
+              "nombre": "Pájaro rear delt fly",
+              "musculo_principal": ["Hombros"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "03801301-Dumbbell-Rear-Lateral-Raise_Shoulders_720 1.gif"
+            },
+            {
+              "nombre": "Elevaciones en T",
+              "musculo_principal": ["Hombros"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "03341301-Dumbbell-Lateral-Raise_shoulder-AFIX_720 1.gif"
+            },
+            {
+              "nombre": "Face pull con mancuerna",
+              "musculo_principal": ["Hombros"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "25032.gif"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dia": "Jueves",
+      "musculos": "Bíceps + Tríceps",
+      "descanso": "60-90 segundos",
+      "musculo_principal": ["Bíceps", "Tríceps"],
+      
+      "ejercicios": [
+        {
+          "nombre": "Bíceps cabeza larga",
+          "musculo_principal": ["Bíceps"],
+          "rutina": [
+            {
+              "nombre": "Curl codo atrás",
+              "musculo_principal": ["Bíceps"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "16701301-Dumbbell-One-Arm-Standing-Curl_Upper-Arms_720.gif"
+            },
+            {
+              "nombre": "Curl inclinado improvisado",
+              "musculo_principal": ["Bíceps"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "16611301-Dumbbell-Lying-Supine-Biceps-Curl_Upper-Arms_720.gif"
+            },
+            {
+              "nombre": "Curl martillo alterno",
+              "musculo_principal": ["Bíceps"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "02981301-Dumbbell-Cross-Body-Hammer-Curl_Forearms_720.gif"
+            }
+          ]
+        },
+        {
+          "nombre": "Bíceps cabeza corta",
+          "musculo_principal": ["Bíceps"],
+          "rutina": [
+            {
+              "nombre": "Curl concentrado",
+              "musculo_principal": ["Bíceps"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "02971301-Dumbbell-Concentration-Curl_Upper-Arms_720.gif"
+            },
+            {
+              "nombre": "Curl supinación final",
+              "musculo_principal": ["Bíceps"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "02851301-Dumbbell-Alternate-Biceps-Curl_Upper-Arms_720.gif"
+            },
+            {
+              "nombre": "Curl Zottman",
+              "musculo_principal": ["Bíceps"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Alto",
+              "descanso": "60-90 segundos",
+              "gif": "a38bc834-5fe8-4504-98c7-60208d1c5ffe.gif"
+            }
+          ]
+        },
+        {
+          "nombre": "Braquial",
+          "musculo_principal": ["Antebrazo"],
+          "rutina": [
+            {
+              "nombre": "Curl martillo",
+              "musculo_principal": ["Antebrazo"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "02981301-Dumbbell-Cross-Body-Hammer-Curl_Forearms_720 1.gif"
+            },
+            {
+              "nombre": "Curl inverso",
+              "musculo_principal": ["Antebrazo"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "dumbbell-reverse-curl.gif"
+            },
+            {
+              "nombre": "Curl hammer cruzado",
+              "musculo_principal": ["Antebrazo"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "16571301-Dumbbell-Cross-Body-Hammer-Curl-Version-2_Upper-Arms_720.gif"
+            }
+          ]
+        },
+        {
+          "nombre": "Tríceps (repaso de las 3 cabezas)",
+          "musculo_principal": ["Tríceps"],
+          "rutina": [
+            {
+              "nombre": "Extensión un brazo arriba – cabeza larga",
+              "musculo_principal": ["Tríceps"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "21881301-Dumbbell-Seated-Triceps-Extension_Upper-Arms_720 1.gif"
+            },
+            {
+              "nombre": "Kickback con giro – cabeza lateral",
+              "musculo_principal": ["Tríceps"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "08601301-Cable-kickback_Upper-arms_720.gif"
+            },
+            {
+              "nombre": "Press Francés con mancuernas – cabeza medial",
+              "musculo_principal": ["Tríceps"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "60-90 segundos",
+              "gif": "03521301-Dumbbell-Neutral-Grip-Bench-Press_Upper-Arms_720.gif"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dia": "Viernes",
+      "musculos": "Glúteos + Zumo",
+      "descanso": "70-100 segundos",
+      "musculo_principal": ["Glúteos"],
+      "ejercicios": [
+        {
+          "nombre": "Glúteo mayor (posterior)",
+          "musculo_principal": ["Glúteos"],
+          "rutina": [
+            {
+              "nombre": "Hip thrust improvisado",
+              "musculo_principal": ["Glúteos"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "70-100 segundos",
+              "gif": [
+                "33351301-Dumbbell-Glute-Bridge_Hip_720.gif",
+                "29641301-Barbell-Glute-Bridge-hands-on-bar_Hips_720.gif"
+              ]
+            },
+            {
+              "nombre": "Sentadillas con mancuerna",
+              "musculo_principal": ["Glúteos"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "70-100 segundos",
+              "gif": "15551301-Dumbbell-Squat_Thighs_720.gif"
+            },
+            {
+              "nombre": "Zancadas",
+              "musculo_principal": ["Glúteos"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "70-100 segundos",
+              "gif": "03811301-Dumbbell-Rear-Lunge_Thighs_720.gif"
+            }
+          ]
+        },
+        {
+          "nombre": "Glúteo medio (lateral)",
+          "musculo_principal": ["Glúteos"],
+          "rutina": [
+            {
+              "nombre": "Patada lateral de pie con mancuerna",
+              "musculo_principal": ["Glúteos"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "70-100 segundos",
+              "gif": "30481301-Cable-hip-abduction-version-2-male_Hips_720.gif"
+            },
+            {
+              "nombre": "Puente glúteo con abducción (abriendo y cerrando rodillas)",
+              "musculo_principal": ["Glúteos"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "70-100 segundos",
+              "gif": "01441201.mp4"
+            },
+            {
+              "nombre": "Sentadilla lateral",
+              "musculo_principal": ["Glúteos"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "70-100 segundos",
+              "gif": "34481301-Dumbbell-Side-Lunge-VERSION-3_720.gif"
+            }
+          ]
+        },
+        {
+          "nombre": "Glúteo menor (profundo)",
+          "musculo_principal": ["Glúteos"],
+          "rutina": [
+            {
+              "nombre": "Elevación pierna cuadrupedia",
+              "musculo_principal": ["Glúteos"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "70-100 segundos",
+              "gif": "17571301-Dumbbell-Single-Leg-Deadlift_Hips_720.gif"
+            },
+            {
+              "nombre": "Patada glúteo con mancuerna",
+              "musculo_principal": ["Glúteos"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "70-100 segundos",
+              "gif": "Pasted image 20250923172447.png"
+            },
+            {
+              "nombre": "Abducción lateral acostada (mancuerna)",
+              "musculo_principal": ["Glúteos"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "70-100 segundos",
+              "gif": "30481301-Cable-hip-abduction-version-2-male_Hips_720 1.gif"
+            }
+          ]
+        },
+        {
+          "nombre": "Zumo con mancuerna",
+          "musculo_principal": ["Glúteos"],
+          "rutina": [
+            {
+              "nombre": "Zumo con mancuerna (enfocado glúteo mayor y medio)",
+              "musculo_principal": ["Glúteos"],
+              "series": 3,
+              "repeticiones": 8,
+              "nivel": "Medio",
+              "descanso": "70-100 segundos",
+              "gif": "03711301-Dumbbell-Plyo-Squat_thighs_720.gif"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notas": {
+    "progresion": "Cuando completes fácilmente todas las series con la técnica correcta, aumenta el peso un 2-5%.",
+    "calentamiento": "5-8 minutos movilidad articular + 1 serie ligera de cada primer ejercicio de grupo muscular.",
+    "intensidad": "Selecciona una carga que deje 1-2 repeticiones en recámara (RIR 1-2).",
+    "registro": "Anota peso usado y sensación (RPE) para ajustar la siguiente semana.",
+    "descanso": "Mantén los descansos dentro del rango indicado para favorecer fuerza + hipertrofia."
+  }
+}
