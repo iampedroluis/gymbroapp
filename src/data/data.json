@@ -127,7 +127,7 @@
               "nombre": "Remo con mancuerna (una mano)",
               "musculo_principal": ["Espalda"],
               "series": 3,
-              "repeticiones": 8,
+              "repeticiones": 12,
               "nivel": "Medio",
               "descanso": "60-90 segundos",
               "gif": "02921301-Dumbbell-Bent-over-Row_back_Back_720.gif"
@@ -136,19 +136,10 @@
               "nombre": "Remo inclinado",
               "musculo_principal": ["Espalda"],
               "series": 3,
-              "repeticiones": 8,
+              "repeticiones": 12,
               "nivel": "Medio",
               "descanso": "60-90 segundos",
               "gif": "02931301-Dumbbell-Bent-Over-Row_Back-FIX_720.gif"
-            },
-            {
-              "nombre": "Pullover con mancuerna",
-              "musculo_principal": ["Espalda"],
-              "series": 3,
-              "repeticiones": 8,
-              "nivel": "Medio",
-              "descanso": "60-90 segundos",
-              "gif": "04331301-Dumbbell-Straight-Arm-Pullover_Chest-FIX_720.gif"
             }
           ]
         },
@@ -160,7 +151,7 @@
               "nombre": "Encogimientos – trapecio superior",
               "musculo_principal": ["Espalda"],
               "series": 3,
-              "repeticiones": 8,
+              "repeticiones": 15,
               "nivel": "Medio",
               "descanso": "60-90 segundos",
               "gif": "04061301-Dumbbell-Shrug_Back-FIX_720.gif"
@@ -169,23 +160,10 @@
               "nombre": "Remo al mentón – trapecio medio/superior",
               "musculo_principal": ["Espalda"],
               "series": 3,
-              "repeticiones": 8,
+              "repeticiones": 12,
               "nivel": "Medio",
               "descanso": "60-90 segundos",
               "gif": "04371301-Dumbbell-Upright-Row_shoulder_720 1.gif"
-            },
-            {
-              "nombre": "Y-T-W raises – trapecio medio/inferior",
-              "musculo_principal": ["Espalda"],
-              "series": 3,
-              "repeticiones": 8,
-              "nivel": "Medio",
-              "descanso": "60-90 segundos",
-              "gif": [
-                "DB_REAR_LAT_RAISE.gif",
-                "DB_Y_RAISE.gif",
-                "33358 1.gif"
-              ]
             }
           ]
         },
@@ -197,25 +175,16 @@
               "nombre": "Reverse fly",
               "musculo_principal": ["Espalda"],
               "series": 3,
-              "repeticiones": 8,
+              "repeticiones": 15,
               "nivel": "Medio",
               "descanso": "60-90 segundos",
               "gif": "03801301-Dumbbell-Rear-Lateral-Raise_Shoulders_720.gif"
             },
             {
-              "nombre": "Remo en pronación",
-              "musculo_principal": ["Espalda"],
-              "series": 3,
-              "repeticiones": 8,
-              "nivel": "Medio",
-              "descanso": "60-90 segundos",
-              "gif": "13291301-Dumbbell-Palm-Rotational-Bent-Over-Row_Back_720.gif"
-            },
-            {
               "nombre": "Face pulls con mancuernas",
               "musculo_principal": ["Espalda"],
               "series": 3,
-              "repeticiones": 8,
+              "repeticiones": 15,
               "nivel": "Medio",
               "descanso": "60-90 segundos",
               "gif": "25032.gif"
@@ -230,25 +199,16 @@
               "nombre": "Peso muerto rumano",
               "musculo_principal": ["Espalda"],
               "series": 3,
-              "repeticiones": 8,
+              "repeticiones": 10,
               "nivel": "Alto",
               "descanso": "60-90 segundos",
               "gif": "14591301-Dumbbell-Romanian-Deadlift_Hips_720.gif"
             },
             {
-              "nombre": "Buenos días con mancuernas",
-              "musculo_principal": ["Espalda"],
-              "series": 3,
-              "repeticiones": 8,
-              "nivel": "Alto",
-              "descanso": "60-90 segundos",
-              "gif": "00441301-Barbell-Good-Morning_Thighs_720.gif"
-            },
-            {
               "nombre": "Hiperextensiones suelo",
               "musculo_principal": ["Espalda"],
               "series": 3,
-              "repeticiones": 8,
+              "repeticiones": 15,
               "nivel": "Medio",
               "descanso": "60-90 segundos",
               "gif": "floor-back-extensions.gif"
@@ -271,7 +231,7 @@
               "nombre": "Elevaciones frontales",
               "musculo_principal": ["Hombros"],
               "series": 3,
-              "repeticiones": 8,
+              "repeticiones": 12,
               "nivel": "Medio",
               "descanso": "60-90 segundos",
               "gif": "03101301-Dumbbell-Front-Raise_Shoulders_720.gif"
@@ -280,7 +240,7 @@
               "nombre": "Press militar",
               "musculo_principal": ["Hombros"],
               "series": 3,
-              "repeticiones": 8,
+              "repeticiones": 12,
               "nivel": "Alto",
               "descanso": "60-90 segundos",
               "gif": "04271301-Dumbbell-Standing-Palms-In-Press_Shoulders_720.gif"
@@ -289,7 +249,7 @@
               "nombre": "Arnold press",
               "musculo_principal": ["Hombros"],
               "series": 3,
-              "repeticiones": 8,
+              "repeticiones": 12,
               "nivel": "Alto",
               "descanso": "60-90 segundos",
               "gif": "21371301-Dumbbell-Arnold-Press_Shoulders_720.gif"
@@ -308,15 +268,6 @@
               "nivel": "Medio",
               "descanso": "60-90 segundos",
               "gif": "03111301-Dumbbell-Full-Can-Lateral-Raise_Shoulders_720.gif"
-            },
-            {
-              "nombre": "Incline lateral raise improvisado",
-              "musculo_principal": ["Hombros"],
-              "series": 3,
-              "repeticiones": 8,
-              "nivel": "Medio",
-              "descanso": "60-90 segundos",
-              "gif": "04081301-Dumbbell-Side-Lying-One-Hand-Raise_Shoulders_720.gif"
             },
             {
               "nombre": "Press lateral neutro",
@@ -341,15 +292,6 @@
               "nivel": "Medio",
               "descanso": "60-90 segundos",
               "gif": "03801301-Dumbbell-Rear-Lateral-Raise_Shoulders_720 1.gif"
-            },
-            {
-              "nombre": "Elevaciones en T",
-              "musculo_principal": ["Hombros"],
-              "series": 3,
-              "repeticiones": 8,
-              "nivel": "Medio",
-              "descanso": "60-90 segundos",
-              "gif": "03341301-Dumbbell-Lateral-Raise_shoulder-AFIX_720 1.gif"
             },
             {
               "nombre": "Face pull con mancuerna",
@@ -379,25 +321,16 @@
               "nombre": "Curl codo atrás",
               "musculo_principal": ["Bíceps"],
               "series": 3,
-              "repeticiones": 8,
+              "repeticiones": 12,
               "nivel": "Medio",
               "descanso": "60-90 segundos",
               "gif": "16701301-Dumbbell-One-Arm-Standing-Curl_Upper-Arms_720.gif"
             },
             {
-              "nombre": "Curl inclinado improvisado",
-              "musculo_principal": ["Bíceps"],
-              "series": 3,
-              "repeticiones": 8,
-              "nivel": "Medio",
-              "descanso": "60-90 segundos",
-              "gif": "16611301-Dumbbell-Lying-Supine-Biceps-Curl_Upper-Arms_720.gif"
-            },
-            {
               "nombre": "Curl martillo alterno",
               "musculo_principal": ["Bíceps"],
               "series": 3,
-              "repeticiones": 8,
+              "repeticiones": 12,
               "nivel": "Medio",
               "descanso": "60-90 segundos",
               "gif": "02981301-Dumbbell-Cross-Body-Hammer-Curl_Forearms_720.gif"
@@ -412,25 +345,16 @@
               "nombre": "Curl concentrado",
               "musculo_principal": ["Bíceps"],
               "series": 3,
-              "repeticiones": 8,
+              "repeticiones": 12,
               "nivel": "Medio",
               "descanso": "60-90 segundos",
               "gif": "02971301-Dumbbell-Concentration-Curl_Upper-Arms_720.gif"
             },
             {
-              "nombre": "Curl supinación final",
-              "musculo_principal": ["Bíceps"],
-              "series": 3,
-              "repeticiones": 8,
-              "nivel": "Medio",
-              "descanso": "60-90 segundos",
-              "gif": "02851301-Dumbbell-Alternate-Biceps-Curl_Upper-Arms_720.gif"
-            },
-            {
               "nombre": "Curl Zottman",
               "musculo_principal": ["Bíceps"],
               "series": 3,
-              "repeticiones": 8,
+              "repeticiones": 12,
               "nivel": "Alto",
               "descanso": "60-90 segundos",
               "gif": "a38bc834-5fe8-4504-98c7-60208d1c5ffe.gif"
@@ -445,7 +369,7 @@
               "nombre": "Curl martillo",
               "musculo_principal": ["Antebrazo"],
               "series": 3,
-              "repeticiones": 8,
+              "repeticiones": 12,
               "nivel": "Medio",
               "descanso": "60-90 segundos",
               "gif": "02981301-Dumbbell-Cross-Body-Hammer-Curl_Forearms_720 1.gif"
@@ -454,24 +378,15 @@
               "nombre": "Curl inverso",
               "musculo_principal": ["Antebrazo"],
               "series": 3,
-              "repeticiones": 8,
+              "repeticiones": 12,
               "nivel": "Medio",
               "descanso": "60-90 segundos",
               "gif": "dumbbell-reverse-curl.gif"
-            },
-            {
-              "nombre": "Curl hammer cruzado",
-              "musculo_principal": ["Antebrazo"],
-              "series": 3,
-              "repeticiones": 8,
-              "nivel": "Medio",
-              "descanso": "60-90 segundos",
-              "gif": "16571301-Dumbbell-Cross-Body-Hammer-Curl-Version-2_Upper-Arms_720.gif"
             }
           ]
         },
         {
-          "nombre": "Tríceps (repaso de las 3 cabezas)",
+          "nombre": "Tríceps",
           "musculo_principal": ["Tríceps"],
           "rutina": [
             {
@@ -507,7 +422,7 @@
     },
     {
       "dia": "Viernes",
-      "musculos": "Glúteos + Zumo",
+      "musculos": "Glúteos",
       "descanso": "70-100 segundos",
       "musculo_principal": ["Glúteos"],
       "ejercicios": [

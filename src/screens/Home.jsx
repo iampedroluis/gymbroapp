@@ -59,6 +59,7 @@ const Home = () => {
               grupoMuscular: grupo.nombre,
               diaCompleto: dayData.dia,
               musculosDelDia: dayData.musculos,
+              musculo_principal: dayData.musculo_principal, // Agregar los músculos principales del día
             });
           });
         }

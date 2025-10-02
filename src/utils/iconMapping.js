@@ -14,6 +14,7 @@ const iconMapping = {
 
   // Grupos musculares
   pecho: require("../icons/pecho.png"),
+  Pecho: require("../icons/pecho.png"), 
   espalda: require("../icons/espalda.png"),
   hombros: require("../icons/hombros.png"),
   deltoides: require("../icons/deltoides.png"),

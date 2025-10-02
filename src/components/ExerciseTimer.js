@@ -54,13 +54,6 @@ const ExerciseTimer = ({
     onExerciseComplete,
   ]);
 
-  const startSeries = () => {
-    setTimerActive(true);
-    // Iniciar inmediatamente el período de descanso
-    setIsResting(true);
-    setRestTime(restSeconds);
-  };
-
   const completeSeries = () => {
     // Función para cuando el usuario complete manualmente la serie actual
     if (currentSeries < series) {
@@ -70,6 +63,21 @@ const ExerciseTimer = ({
       // Es la última serie
       setIsCompleted(true);
       setTimerActive(false);
+      if (onComplete) onComplete();
+      if (onExerciseComplete) onExerciseComplete();
+    }
+  };
+
+  const skipRestAndAdvance = () => {
+    // Función para saltar el descanso y avanzar inmediatamente
+    setIsResting(false);
+    setTimerActive(false);
+
+    if (currentSeries < series) {
+      setCurrentSeries((prevSeries) => prevSeries + 1);
+    } else {
+      // Es la última serie, completar ejercicio
+      setIsCompleted(true);
       if (onComplete) onComplete();
       if (onExerciseComplete) onExerciseComplete();
     }
@@ -190,16 +198,7 @@ const ExerciseTimer = ({
 
         {/* Botones de Control */}
         <div className="space-y-3">
-          {!isResting && !timerActive && currentSeries === 1 && (
-            <button
-              onClick={startSeries}
-              className="w-full bg-ios-blue text-white py-4 rounded-2xl font-semibold text-lg transition-all duration-200 active:scale-95"
-            >
-              Descanso
-            </button>
-          )}
-
-          {!isResting && !timerActive && currentSeries > 1 && (
+          {!isResting && !timerActive && (
             <button
               onClick={completeSeries}
               className="w-full bg-green-500 text-white py-4 rounded-2xl font-semibold text-lg transition-all duration-200 active:scale-95"
@@ -209,13 +208,15 @@ const ExerciseTimer = ({
           )}
 
           {isResting && (
-            <div className="space-y-2">
+            <div className="space-y-3">
+              {/* Botón para completar serie anticipadamente */}
               <button
-                disabled
-                className="w-full bg-blue-50 text-blue-600 py-4 rounded-2xl font-semibold text-lg cursor-not-allowed border-2 border-blue-200"
+                onClick={skipRestAndAdvance}
+                className="w-full bg-green-500 text-white py-3 rounded-2xl font-semibold transition-all duration-200 active:scale-95"
               >
-                ⏱️ Descansando... {restTime}s
+                ⚡ Completar Serie Ahora
               </button>
+
               <p className="text-xs text-ios-gray-500 text-center">
                 {currentSeries < series
                   ? `Siguiente: Serie ${currentSeries + 1} de ${series}`
