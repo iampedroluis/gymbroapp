@@ -27,6 +27,7 @@ const iconMapping = {
   gluteos: require("../icons/gluteos.png"),
   cuello: require("../icons/cuello.png"),
   "musculo-principal": require("../icons/musculo-principal.png"),
+  
 };
 
 // Mapeo específico para grupos musculares
